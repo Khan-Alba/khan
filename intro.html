@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>KHAN'S LAB</title>
+      <meta charset="uft-8">
+      <style>
+
+        a{
+          color: black;
+          text-decoration: none;
+        }
+
+
+        h1{
+          font-size:60px;
+          text-align: center;
+          border-bottom: 1px solid black;
+          margin:0;
+          padding:20px;
+        }
+
+        #grid ul{
+          text-decoration-color: black;
+          font-size:20px;
+          text-align: left;
+          border-right:1px solid gray;
+          width:150px;
+          margin: 0;
+          padding: 33px;
+        }
+
+        #grid{
+          display: grid;
+          grid-template-columns: 300px 1fr;
+        }
+
+        #article{
+          padding: 30px;
+        }
+
+        @media(max-width 900px) {
+          #grid{
+            display: block;
+          }
+          ul{
+            border-right: none;
+          }
+        }
+      </style>
+    </head>
+
+    <body>
+      <h1> KHAN's PSY-LAB </h1>
+
+      <div id="grid">
+        <ul>
+          <li> <a href="intro.html">INTRODUCTION</a> </li>
+          <li> <a href="ref.html">REFERENCES</a> </li>
+          <li> <a href="res.html">RESEARCHES</a> </li>
+        </ul>
+
+        <div id="article">
+          <h2> WELCOME </h2>
+          <p>
+            Dear, ms and mr. Guest.
+            <br><br>
+            Hello! I am Khan, a south-korean graduated student in a master's course of Linguistic Psychology.
+            I am happy to meet you. This website is my data storage.
+            I made it to practice my skills of html and css.
+            I will try to make an improvment on both the website and my coding skills.
+            Anyway, you are welcome and please leave any messages if you want to contact me.
+            <br><br>
+            Sincerely, Khan.
+          </p>
+        </div>
+      </div>
+    </body>
+  </html>
